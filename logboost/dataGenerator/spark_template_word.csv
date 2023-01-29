@@ -1,0 +1,158 @@
+Id,Template
+1,Coarse Grained Executor Backend Started daemon with process name spark slave
+2,Signal Utils Registering signal handler for TERM
+3,Signal Utils Registering signal handler for
+4,Native Code Loader Unable to load native hadoop library for your platform using builtin java classes where applicable
+5,Security Manager Changing view acls to root
+6,Security Manager Changing modify acls to root
+7,Security Manager Changing view acls groups to
+8,Security Manager Changing modify acls groups to
+9,Security Manager Security Manager authentication disabled ui acls disabled users with view permissions Set root groups with view permissions set users with modify permissions Set root groups with modify permissions set
+10,Transport Client Factory Successfully created connection to after ms ms spent in bootstraps
+11,Disk Block Manager Created local directory at
+12,Memory Store Memory Store started with capacity MiB
+13,Worker Watcher Connecting to worker spark
+14,Coarse Grained Executor Backend Connecting to driver spark
+15,Resource Utils
+16,Resource Utils No custom resources configured for spark executor
+17,Worker Watcher Successfully connected to spark
+18,Coarse Grained Executor Backend Successfully registered with driver
+19,Executor Starting executor ID on host
+20,Utils Successfully started service on port
+21,Netty Block Transfer Service Server created on
+22,Block Manager Using org apache spark storage Random Block Replication Policy for block replication policy
+23,Block Manager Master Registering Block Manager None
+24,Block Manager Master Registered Block Manager None
+25,Block Manager Initialized Block Manager None
+26,Executor Fetching spark
+27,Utils Fetching spark
+28,Utils Copying to bin hadoop
+29,Executor Adding file to class loader
+30,Coarse Grained Executor Backend Got assigned task
+31,Executor Running task in stage TID
+32,Torrent Broadcast Started reading broadcast variable with pieces estimated total size MiB
+33,Memory Store Block broadcast piece stored as bytes in memory estimated size free MiB
+34,Torrent Broadcast Reading broadcast variable took ms
+35,Memory Store Block broadcast stored as values in memory estimated size free MiB
+36,Hadoop RDD Input split hdfs
+37,Executor Finished task in stage TID bytes result sent to driver
+38,Map Output Tracker Worker Updating epoch to and clearing cache
+39,Map Output Tracker Worker Do not have map outputs for shuffle fetching them
+40,Map Output Tracker Worker Doing fetch tracker endpoint Netty Rpc Endpoint Ref spark
+41,Map Output Tracker Worker Got map output locations
+42,Shuffle Block Fetcher Iterator Getting non empty blocks including local and B host local and B push merged local and B remote blocks
+43,Shuffle Block Fetcher Iterator Started remote fetches in ms
+44,Memory Store Block broadcast stored as values in memory estimated size MiB free MiB
+45,Memory Store Block rdd stored as values in memory estimated size MiB free MiB
+46,Block Manager Found block rdd locally
+47,CodeGenerator Code generated in ms
+48,File Output Committer File Output Committer Algorithm version is
+49,File Output Committer File Output Committer skip cleanup temporary folders under output directory false ignore cleanup failures false
+50,SQL Hadoop Map Reduce Commit Protocol Using user defined output committer class org apache parquet hadoop Parquet Output Committer
+51,SQL Hadoop Map Reduce Commit Protocol Using output committer class org apache parquet hadoop Parquet Output Committer
+52,Code Config Compression SNAPPY
+53,Parquet Output Format Parquet block size to
+54,Parquet Output Format Validation is off
+55,Parquet Output Format Maximum row group padding size is bytes
+56,Parquet Output Format Parquet properties are
+57,Parquet Write Support Initialized Parquet Write Support with Catalyst schema
+58,Code Pool Got brand new
+59,File Output Committer Saved output of task to hdfs
+60,Spark Hadoop Map Red Util attempt Committed
+61,Coarse Grained Executor Backend Driver commanded shutdown
+62,Memory Store Memory Store cleared
+63,Hadoop Map Red Commit Protocol Using output committer class org apache hadoop map red File Output Committer
+64,Coarse Grained Executor Backend RECEIVED SIGNAL TERM
+65,BLAS Failed to load implementation from
+66,Executor block locks were not released by task in stage TID
+67,Failed to load implementation from
+68,Memory Store Block rdd stored as values in memory estimated size free MiB
+69,Block Manager Asked to remove block which does not exist
+70,Block Manager Removing RDD
+71,New Hadoop RDD Input split hdfs
+72,Block Manager Block Manager stoppe
+73,Memory Store Block task result stored as bytes in memory estimated size MiB free MiB
+74,Executor Finished task in stage TID bytes result sent via Block Manager
+75,File Scan RDD Reading File path hdfs
+76,Internal Parquet Record Reader Record Reader initialized will read total of records
+77,Internal Parquet Record Reader at row reading next block
+78,Internal Parquet Record Reader block read in memory in ms row count
+79,Memory Store Block broadcast piece stored as bytes in memory estimated size MiB free MiB
+80,Block
+81,Coarse Grained Executor Backend Driver from spark master
+82,LAPACK Failed to load implementation from
+83,Block Manager Block Manager stopped
+84,Block Manager Asked to remove block broadcast piece which does not exist
+85,ERROR
+86,Shutdown Hook Manager Shutdown hook called
+87,Shutdown Hook Manager Deleting directory
+88,Coarse Grained Executor Backend
+89,DFS Client No live nodes contain block after checking nodes ignored Nodes null
+90,DFS Client No node available for file
+91,DFS Client Could not obtain from any node No live nodes contain current block Block locations Dead nodes Will get new block locations from name node and retry
+92,DFS Client DFS choose Data Node got IO Exception will wait for msec
+93,DFS Client Could not obtain block file No live nodes contain current block Block locations Dead nodes Throwing Block Missing Exception
+94,DFS Client DFS Read
+95,Executor Exception in task in stage TID
+96,Executor Executor is trying to kill task in stage TID reason Stage cancelled
+97,Executor Issue communicating with driver in heart beat
+98,Transport Response Handler Ignoring response for RPC from spark master bytes since it is not outstanding
+99,Block Reader Factory I error constructing remote block reader
+100,DFS Client Failed to connect to for file for block add to dead Nodes and continue
+101,DFS Client Could not obtain from any node No live nodes contain current block Block locations Data node Info With Storage Will get new block locations from name node and retry
+102,Transport Channel Handler Exception in connection from spark master
+103,Coarse Grained Executor Backend Executor self exiting due to Unable to create executor due to No space left on device
+104,Client Retrying connect to server spark master Already tried time max Retries
+105,Block Manager Putting block rdd failed due to exception org apache hadoop hdfs Block Missing Exception Could not obtain block file
+106,Block Manager Block rdd could not be removed as it was not found on disk or in memory
+107,Block Manager Putting block rdd failed due to exception org apache spark Task Killed Exception
+108,Executor Executor killed task in stage TID reason Stage cancelled
+109,Coarse Grained Executor Backend RECEIVED SIGNAL
+110,Coarse Grained Executor Backend Executor self exiting due to Cannot reg
+111,Coarse Grained Executor Backend Driver from spark master disconnected during shutdown
+112,Executor Executor is trying to kill task in stage
+113,DFS Client Successfully connected to for
+114,Coarse Grained Executor Backend Started daemon with process
+115,Shutdown Hook Manager Shutdown hook
+116,Transport Response Handler Still have requests outstanding when connection from spark master is closed
+117,Map Output Tracker Worker Error communicating with Data node Info With Storage
+118,Executor Exception in task in stage TID Error communicating with Data node Info With Storage
+119,Data Streamer Slow wait For Seq no took ms threshold File being written block Write pipeline datanodes
+120,Coarse Grained Executor Backend Executor self exiting due to Cannot register with driver spark
+121,Coarse Grained Executor Backend RECEIVED
+122,Executor Executor is trying to kill task in stage TID reason Stage canc
+123,Data Streamer Exception in create Block Output Stream blk
+124,Data Streamer Abandoning
+125,Data Streamer Excluding data node Data node Info With Storage
+126,Data Streamer Data Streamer Exception
+127,Utils Aborting task
+128,Spark Hadoop Writer Task attempt aborted
+129,Executor Executor is trying to kill task in
+130,Executor
+131,Coarse
+132,Coarse Graine
+133,Shutdown Hook Manager Deleting
+134,Coarse
+135,Coarse
+136,Coarse
+137,Hadoop Map Red Commit Protocol Using output committ
+138,Executor Finished task in stage TID
+139,Data Streamer Exception for
+140,Memory Store Block broadcast stored as values in memory
+141,Coarse Grained Executor
+142,Coarse Grained Executor
+143,Shutdown Hook Manager
+144,Disk Block Manager Shutdown hook called
+145,Coarse Grained Executor Back
+146,Coarse Grained
+147,Coarse Grained
+148,Memory Store Block task result stored as bytes in memory estimated size MiB free
+149,Utils Exception encountered
+150,SecurityManager Changing modify acls to root
+151,Data Streamer Slow Read Processor read fields for block took ms threshold ack seq no reply SUCCESS down stream Ack Time Nanos flag targets
+152,Spark Hadoop Map Red Util attempt Not committed because driver did not authorize commit
+153,File Output Committer Could not delete hdfs
+154,Block Manager Putting block rdd failed due to exception java io Interrupted IO Exception Dest Host dest Port spark master LocalHost local Port spark slave Failed on local exception java io Interrupted IO Exception Interrupted
+155,Coarse Grained Executor Backend Executor self exiting due to Driver spark master disassociated Shutting down
+156,Executor Exception in task in stage TID Dest Host dest Port spark master LocalHost local Port spark slave Failed on local exception java io Interrupted IO Exception Interrupted while waiting for IO on channel javan io channel Socket Channel Total timeout mills is millis timeout left
+157,Executor Executor is trying to kill task in stage TID reason Stage

@@ -1,0 +1,49 @@
+Id,Template
+1,dfs Data Node Data Xceiver Receiving block src dest
+2,dfs FS Name system BLOCK Name System allocate Block
+3,dfs Data Node Packet Responder Packet Responder for block terminating
+4,dfs Data Node Packet Responder Received block of size from
+5,dfs FS Name system BLOCK Name System add Stored Block block Map updated is added to size
+6,dfs Data Node Data Xceiver Received block src dest of size
+7,dfs Data Node Data Transfer Transmitted block to
+8,dfs Data Node Starting thread to transfer block to
+9,dfs FS Name system BLOCK ask to replicate to Data Node
+10,dfs Data Node Data Xceiver Served block to
+11,dfs Data Block Scanner Verification succeeded for
+12,dfs Data Node Data Xceiver write Block received exception
+13,dfs Data Node Packet Responder Packet Responder Exception
+14,dfs Data Node Data Xceiver write Block received exception java io IO Exception Could not read from stream
+15,dfs FS Dataset Deleting block file
+16,dfs Data Node Block Receiver Receiving empty packet for block
+17,dfs Data Node Block Receiver Exception in receive Block for block java io IO Exception Connection reset by peer
+18,dfs Data Node Data Xceiver write Block received exception java io IO Exception Connection reset by peer
+19,dfs FS Name system BLOCK Name System add Stored Block Redundant add Stored Block request received for on size
+20,dfs Data Node Packet Responder Packet Responder Exception java net Socket Timeout Exception millis timeout while waiting for channel to be ready for read ch java nio channels Socket Channel connected local remote
+21,dfs Data Node Packet Responder Packet Responder Exception java io Interrupted IO Exception Interruped while waiting for IO on channel java nio channels Socket Channel connected local remote millis timeout left
+22,dfs Data Node Block Receiver Exception in receive Block for block
+23,dfs Data Node Packet Responder Packet Responder for block Interrupted
+24,dfs Data Node Block Receiver Changing block file offset of block from to meta file offset to
+25,dfs Data Node Block Receiver Exception writing block to mirror
+26,dfs Data Node Block Receiver Exception in receive Block for block java io Interrupted IO Exception Interruped while waiting for IO on channel java nio channels Socket Channel connected local remote millis timeout left
+27,dfs Data Node Data Xceiver write Block received exception java io Interrupted IO Exception Interruped while waiting for IO on channel java nio channels Socket Channel connected local remote millis timeout left
+28,dfs Data Node Packet Responder Packet Responder Exception java io IO Exception Broken pipe
+29,dfs Data Node Data Xceiver write Block received exception java io IO Exception Block is valid and cannot be written to
+30,dfs Data Node Data Transfer Failed to transfer to got java io IO Exception Connection reset by peer
+31,dfs FS Name system BLOCK Name System delete is added to invalid Set of
+32,dfs FS Dataset Unexpected error trying to delete block Block Info not found in volume Map
+33,dfs FS Name system BLOCK Name System add Stored Block add Stored Block request received for on size But it does not belong to any file
+34,dfs Data Node Data Xceiver Got exception while serving to
+35,dfs Data Node Packet Responder Packet Responder Exception java io IO Exception Connection reset by peer
+36,dfs Data Node Block Receiver Exception in receive Block for block java net Socket Timeout Exception millis timeout while waiting for channel to be ready for write ch java nio channels Socket Channel connected local remote
+37,dfs Data Node Data Xceiver write Block received exception java net Socket Timeout Exception millis timeout while waiting for channel to be ready for write ch java nio channels Socket Channel connected local remote
+38,dfs FS Dataset Reopen Block 
+39,dfs FS Name system BLOCK Removing block from needed Replications as it does not belong to any file
+40,dfs Pending Replication Blocks Pending Replication itor Pending Replication itor timed out block
+41,dfs Data Node Data Xceiver write Block received exception java net Socket Timeout Exception millis timeout while waiting for channel to be ready for read ch java nio channels Socket Channel connected local remote
+42,dfs Data Node Data Xceiver write Block received exception java io IO Exception Interrupted receive Block
+43,dfs Data Node Packet Responder Packet Responder Exception java io Interrupted IO Exception Interruped while waiting for IO on channel java nio channels Socket Channel closed  millis timeout left
+44,dfs Data Node Data Xceiver write Block received exception java net No Route To Host Exception No route to host
+45,dfs Data Node Data Xceiver write Block received exception java io IO Exception Broken pipe
+46,dfs Data Block Scanner Adding an already existing block
+47,dfs Data Node Block Receiver Exception in receive Block for block java io IO Exception Broken pipe
+48,dfs Data Node Packet Responder Packet Responder Exception java io IO Exception The stream is closed
