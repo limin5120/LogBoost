@@ -74,7 +74,7 @@ if __name__ == "__main__":
     title_list = [
         'HDFS-A', 'Optimized HDFS-A', 'HDFS-B',
         'Optimized HDFS-B', 'SPARK',
-        'Otimized SPARK'
+        'Optimized SPARK'
     ]
     data_list = ['f1', 'of1', 'f2', 'of2', 'f3', 'of3']
     boost_hdfs_deep()
