@@ -1,9 +1,3 @@
-Based on your requirements and the code analysis of the `demo/` directory files, here is the optimized `README.md`.
-
-I have removed the "Semantic Awareness" section from Key Features and thoroughly updated the **Quick Start** section to reflect the exact command-line arguments and usage patterns found in the source code comments.
-
----
-
 # LogBoost: Boost Log Anomaly Detection by Cherry-Picking Log Sequences
 
 > **LogBoost, a lightweight framework to boost log-based anomaly detection by automatically reducing redundant log templates. Based on our proposed similarity measurement, it effectively sorts the importance of log templates and identifies templates that are ineffective in anomaly detection. By filtering out these "noise" templates, LogBoost optimizes the training data, thereby improving the efficiency and accuracy of downstream anomaly detection models.**
